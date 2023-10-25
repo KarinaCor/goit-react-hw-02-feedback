@@ -42,7 +42,7 @@ export class App extends Component {
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}
-            onLeavFeedBack={this.onLeaveFeedback}
+            onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
         <Section title="Statistics">
@@ -62,3 +62,5 @@ export class App extends Component {
     );
   }
 };
+
+

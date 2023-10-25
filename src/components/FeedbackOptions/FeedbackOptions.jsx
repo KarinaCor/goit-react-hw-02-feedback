@@ -1,8 +1,10 @@
 import * as SC from './FeedbackOptions.styled'
 
 export const FeedbackOptions = ({title, onLeaveFeedback, options}) => {
-<>
-<SC.Wrapper>
+
+return(
+    <>
+    <SC.Wrapper>
     {options.map(option => (
         <SC.Button  key={option}
         type="button"
@@ -12,4 +14,7 @@ export const FeedbackOptions = ({title, onLeaveFeedback, options}) => {
     ))}
 </SC.Wrapper>
 </>
+)
+
+
 }
